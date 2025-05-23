@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js HR Dasboard
 
-## Getting Started
+A modern web application built with Next.js, featuring a dynamic user feed, robust filtering, search capabilities, a tabbed information display, and secure authentication using NextAuth.js.
 
-First, run the development server:
+## ✨ Features
+
+* **Dynamic User Feed**: Displays a list of users.
+![Dashboard](C:\Users\ANUPAMA\Downloads\hr image\dashboard.png)
+* **Search Functionality**: Efficiently search users by name, email, or department.
+* **Multi-Criteria Filtering**: Filter the user list by department and a dynamically generated rating.
+* **Tabbed UI**: An interactive tabbed interface (`Overview`, `Projects`, `Feedback`) for displaying different types of information.
+    * **Overview Tab**: Dynamically fetches and displays statistics about users.
+    * **Projects Tab**: Displays a list of projects.
+    * **Feedback Tab**: Displays a list of feedback entries.
+    * Dynamic sizing of content within scrollable tabs to control visibility of items.
+* **Responsive Design**: Built with Tailwind CSS for a mobile-first and responsive user interface.
+* **Dark Mode Support**: Seamless dark mode integration for enhanced user experience.
+
+## 🚀 Technologies Used
+
+* **Next.js 14+ (App Router)**: React framework for building server-side rendered and static web applications.
+* **React.js**: JavaScript library for building user interfaces.
+* **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+
+## 🔧 Installation
+
+Follow these steps to get the project up and running on your local machine.
+
+### Prerequisites
+
+* Node.js (v18.x or later recommended)
+* npm (v8.x or later) or Yarn (v1.x or later)
+
+### Steps
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url> # Replace with your repo URL if available
+    cd nextjs-user-dashboard
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # OR
+    yarn install
+    ```
+
+## ▶️ Running the Project
+
+To start the development server:
 
 ```bash
 npm run dev
-# or
+# OR
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

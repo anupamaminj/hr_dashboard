@@ -12,13 +12,12 @@ A modern web application built with Next.js, featuring a dynamic user feed, robu
 
 ![Filtering](/image/filtering.png)
 
-*Navigation Placeholders**:
 * **Bookmark Manager**: A link to a bookmark manager page, where we can see all bookmarked employee
 
 ![Bookmark Manager](/image/bookmark.png)
 * **Analytics Dashboard**: A link to an analytics dashboard page
 
-![Filtering](/image/analytics dashboard.png)
+![Filtering](/image/analytics.png)
 * **Tabbed UI**: An interactive tabbed interface (`Overview`, `Projects`, `Feedback`) for displaying different types of information.
     * **Overview Tab**: Dynamically fetches and displays statistics about users.
 

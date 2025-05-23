@@ -156,7 +156,7 @@ const UserTabs = () => {
             case 'projects':
                 return (
                     <div className="p-6">
-                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">My Projects</h3>
+                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Projects</h3>
                         <div className="max-h-80 overflow-y-auto pr-2">
                             {mockProjectsData.map(project => (
                                 <div key={project.id} className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg shadow mb-4 h-auto">

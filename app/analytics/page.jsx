@@ -190,7 +190,7 @@ export default function AnalyticsPage() {
             },
             title: {
                 display: true,
-                text: 'Bookmark Trends (Mock Data)',
+                text: 'Bookmark Trends',
                 color: 'rgb(107, 114, 128)'
             },
         },
@@ -259,7 +259,7 @@ export default function AnalyticsPage() {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Insights</h2>
                 <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
                     <li>Engineering department consistently shows high average performance ratings.</li>
-                    <li>Bookmark trends indicate a steady interest in new hires around the beginning of each quarter (mock data).</li>
+                    <li>Bookmark trends indicate a steady interest in new hires around the beginning of each quarter.</li>
                     <li>Further analysis could include skill set distribution, promotion rates, or tenure analytics.</li>
                 </ul>
             </div>

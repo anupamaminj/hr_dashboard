@@ -5,7 +5,7 @@ A modern web application built with Next.js, featuring a dynamic user feed, robu
 ## ✨ Features
 
 * **Dynamic User Feed**: Displays a list of users.
-![Dashboard](C:\Users\ANUPAMA\Downloads\hr image\dashboard.png)
+![Dashboard](C:/Users/ANUPAMA/Downloads/hr image/dashboard.png)
 * **Search Functionality**: Efficiently search users by name, email, or department.
 * **Multi-Criteria Filtering**: Filter the user list by department and a dynamically generated rating.
 * **Tabbed UI**: An interactive tabbed interface (`Overview`, `Projects`, `Feedback`) for displaying different types of information.

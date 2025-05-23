@@ -127,9 +127,7 @@ const Feed = () => {
 
     return (
         <section className="feed flex flex-col items-center p-4">
-            {/* Control Panel (Search, Filters, Buttons) */}
             <div className="w-full max-w-4xl border border-gray-300 dark:border-gray-700 rounded-lg p-6 mb-8 bg-white dark:bg-gray-800 shadow-md">
-                {/* ... (Existing search bar, filter dropdowns, and navigation/auth buttons) ... */}
                 <div className="mb-6">
                     <div className="relative">
                         <input
@@ -173,7 +171,6 @@ const Feed = () => {
                             Analytics Dashboard
                         </Link>
 
-                        {/* Button to toggle UserTabs visibility */}
                         <button
                             onClick={() => setShowUserTabs(!showUserTabs)}
                             className="flex-shrink-0 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-2 dark:focus:ring-offset-gray-800"

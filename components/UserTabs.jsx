@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-// Mock Data (keep as is, add more to ensure scrolling takes effect)
+
 const mockProjectsData = [
     {
         id: 1,

@@ -71,5 +71,7 @@ npm run dev
 # OR
 yarn dev
 
+Access the application at: http://localhost:3000/
+
 
 

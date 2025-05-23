@@ -5,13 +5,30 @@ A modern web application built with Next.js, featuring a dynamic user feed, robu
 ## ✨ Features
 
 * **Dynamic User Feed**: Displays a list of users.
+
 ![Dashboard](/image/dashboard.png)
 * **Search Functionality**: Efficiently search users by name, email, or department.
 * **Multi-Criteria Filtering**: Filter the user list by department and a dynamically generated rating.
+
+![Filtering](/image/filtering.png)
+
+*Navigation Placeholders**:
+* **Bookmark Manager**: A link to a bookmark manager page, where we can see all bookmarked employee
+
+![Bookmark Manager](/image/bookmark.png)
+* **Analytics Dashboard**: A link to an analytics dashboard page
+
+![Filtering](/image/analytics dashboard.png)
 * **Tabbed UI**: An interactive tabbed interface (`Overview`, `Projects`, `Feedback`) for displaying different types of information.
     * **Overview Tab**: Dynamically fetches and displays statistics about users.
+
+    ![Overview](/image/overview.png)
     * **Projects Tab**: Displays a list of projects.
+
+    ![Project tab](/image/projects.png)
     * **Feedback Tab**: Displays a list of feedback entries.
+
+    ![Feedback Tab](/image/feedback.png)
     * Dynamic sizing of content within scrollable tabs to control visibility of items.
 * **Responsive Design**: Built with Tailwind CSS for a mobile-first and responsive user interface.
 * **Dark Mode Support**: Seamless dark mode integration for enhanced user experience.
@@ -35,8 +52,8 @@ Follow these steps to get the project up and running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url> # Replace with your repo URL if available
-    cd nextjs-user-dashboard
+    git clone https://github.com/anupamaminj/hr_dashboard.git
+    cd hr_dashboard
     ```
 
 2.  **Install dependencies:**
@@ -54,4 +71,6 @@ To start the development server:
 npm run dev
 # OR
 yarn dev
+
+
 
